@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Lienhe.css">
+    <title>liên hệ</title>
+</head>
+<body>
+    <div id="trangdau">
+        <div id="wrapper">
+          <div id="header">
+            <a href="trangchu.html" class="logo">
+              <img src="/Anh_BTL/logo_BTL_TKW.png" alt="" />
+            </a>
+            <div id="menu">
+              <div class="item">
+                <a href="trangchu.html" target="_self">Trang chủ</a>
+              </div>
+              <div class="item">
+                <a href="sanpham.html" target="_self">Sản phẩm</a>
+              </div>
+              <div class="item">
+                <a href="hangsale.html" target="_self">Hàng sale</a>
+              </div>
+              <div class="item">
+                <a href="lienhe.html" target="_self">Liên hệ</a>
+              </div>
+            </div>
+  
+            <div id="actions">
+              <div class="item">
+                <img src="/Anh_BTL/toi.png" alt="logo của tôi" />
+              </div>
+              <div class="item">
+                <img src="/Anh_BTL/giohang.png" alt="" />
+              </div>
+            </div>
+          </div>
+    <div class="body-lienhe">
+        <div class="lienhe-header">Liên hệ</div>
+        <div class="lienhe-info">
+            <div class="info-left">
+                <p>
+                    <h2 style="color: gray"> MY PHAM TRAN LAM </h2><br />
+                    <b>Địa chỉ:</b>Nam Đàn- Nghệ An<br /><br />
+                    <b>Telephone:</b> 097 2882 648<br /><br />
+                    <b>Hotline:</b> 033 4413 946 - CSKH: 0** ****<br /><br />
+                    <b>E-mail:</b> vanlam.mecnd1@gmail.com<br /><br />
+                    
+                </p>
+            </div>
+
+        </div>
+        <div class="lienhe-info">
+
+            <div class="guithongtin">
+                <p style="font-size: 22px; color: gray">Gửi thông tin liên lạc cho chúng tôi: </p>
+                <hr />
+                <form name="formlh" onsubmit="return nguoidung()">
+                    <table cellspacing="10px">
+                        <tr>
+                            <td>Họ và tên</td>
+                            <td><input type="text" name="ht" size="40" maxlength="40" placeholder="Họ tên"
+                                    autocomplete="off" required></td>
+                        </tr>
+                        <tr>
+                            <td>Điện thoại liên hệ</td>
+                            <td><input type="text" name="sdt" size="40" maxlength="11" minlength="10" placeholder="Điện thoại"
+                                    required></td>
+                        </tr>
+                        <tr>
+                            <td>Địa chỉ Email</td>
+                            <td><input type="email" name="em" size="40" placeholder="Email" autocomplete="off"
+                                    required></td>
+                        </tr>
+                        <tr>
+                            <td>Tiêu đề</td>
+                            <td><input type="text" name="tde" size="40" maxlength="100" placeholder="Tiêu đề"
+                                    required>
+                        </tr>
+                        <tr>
+                            <td>Nội dung</td>
+                            <td><textarea name="nd" rows="5" cols="44" maxlength="500" wrap="physical"
+                                    placeholder="Nội dung liên hệ" required></textarea></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><button type="submit">Gửi thông tin liên hệ</button></td>
+                        </tr>
+                    </table>
+                </form>
+                
+</body>
+</html>
